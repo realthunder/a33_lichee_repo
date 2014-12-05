@@ -9,6 +9,6 @@
         <copyfile src="build_linux.sh" dest="build.sh" />
     </project>
     <project path="brandy" name="a33_bootloader" />
-    <project path="tools" name="a33_tools" />
+    <project path="tools" name="a33_lichee_tools" />
     <project path="linux-3.4" name="a33_linux" />
 </manifest>
