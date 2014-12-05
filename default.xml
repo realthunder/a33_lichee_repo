@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github"
+        fetch=".." />
+    <default revision="refs/head/master"
+        remote="github"
+        sync-j="4" />
+    <project path="buildroot" name="a33_buildroot" >
+        <copyfile src="build_linux.sh" dest="build.sh" />
+    </project>
+    <project path="brandy" name="a33_bootloader" />
+    <project path="tools" name="a33_tools" />
+    <project path="linux-3.4" name="a33_linux" />
+</manifest>
