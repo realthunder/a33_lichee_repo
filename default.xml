@@ -2,7 +2,7 @@
 <manifest>
     <remote name="github"
         fetch=".." />
-    <default revision="refs/head/master"
+    <default revision="refs/heads/master"
         remote="github"
         sync-j="4" />
     <project path="buildroot" name="a33_buildroot" >
